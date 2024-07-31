@@ -1,8 +1,8 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image, { StaticImageData } from 'next/image';
 
 interface ServicesProps {
-  src: string;
+  src: StaticImageData;
 }
 
 const Services: React.FC<ServicesProps> = ({ src }) => {
@@ -12,7 +12,7 @@ const Services: React.FC<ServicesProps> = ({ src }) => {
       <h4 className='mt-4 font-semibold'>Lorem ipsum dolor</h4>
       <p className='mt-2'>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. Turpis donec eu mattis <br /> tincidunt viverra eu. Lacus turpis felis</p>
     </div>
-  )
+  );
 }
 
 export default Services;
