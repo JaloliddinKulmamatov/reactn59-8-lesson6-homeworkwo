@@ -37,7 +37,7 @@ export default function page() {
           viverra mauris convallis.
         </p>
       </div>
-      <Image src="/big2.png" alt="" />
+      <Image src="/big2.png" alt="Descriptive text for big2 image"   />
       <div className="max-w-3xl m-auto mt-10">
         <p className="text-xl font-light mb-20">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
