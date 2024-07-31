@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-10 md:gap-16 lg:gap-32">
         <div className="flex flex-col gap-6 max-w-md text-center md:text-left">
           <h2 className="font-semibold text-2xl md:text-3xl lg:text-4xl">
-            Let's start working to build a brighter future.
+            Lets start working to build a brighter future.
           </h2>
 
           <p className="font-normal text-sm md:text-base lg:text-lg">
